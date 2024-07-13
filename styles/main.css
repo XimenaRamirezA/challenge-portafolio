@@ -1,0 +1,25 @@
+:root{
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #464646;
+}
+
+body{
+  
+    ol, ul, li { 
+        list-style:none;
+     }
+       
+     a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+    text-decoration-line: none;
+   }
+    
+}
+
+
+
+
+
+
+

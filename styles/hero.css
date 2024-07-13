@@ -1,0 +1,127 @@
+section.hero{
+    padding: 1% 7% 3% 7%;
+    
+    
+    .title__subsection{
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 77px;
+
+        width: auto;
+        letter-spacing: 1px;
+        background: linear-gradient(90deg,
+        #00237c, #fff, #00237c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: 
+        rgba(255, 255, 255, 0);
+        
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: anime 6s infinite linear;
+    }
+  
+    .title{
+      display: flex;
+      flex-direction: row-reverse;
+
+    .title__container{
+       display: flex;
+       flex-direction: column;
+    
+        
+        .title_text{
+            margin-top: 2%;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            color: #464646;
+
+        }
+
+        .title__network{
+            
+            display: flex;
+            gap:1.5rem;
+            font-family: 'Raleway';
+            font-style:normal;
+            font-weight: 450;
+            font-size:22px;
+            color: #464646;
+           
+        } 
+        .title__network__item {
+            display: flex;
+            align-items: center; /* Align items vertically within the flex container */
+            a:hover { /* Target links on hover */
+              background-color: #ffffff; /* Add a subtle background color */
+              color: #007BFF; /* Change the text color to blue */
+              text-decoration: none; /* Remove default underline */
+              transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+            }
+            a {
+                display: flex;
+                align-items: center; /* Align items vertically within the anchor */
+                text-decoration: none;
+                color: #464646;
+        
+                img {
+                    margin-left: 0.5rem; /* Adjust margin as needed */
+                }
+            }
+        }
+        
+      }
+    }
+    
+    
+
+  
+
+ 
+
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    padding: 0% 2% 3% 2%; /* Reduce padding for smaller screens */
+    .title {
+      flex-direction: column; /* Change to column layout */
+    }
+    .title__subsection {
+      font-size: 60px; /* Adjust font size */
+    }
+
+    .title__container {
+      flex-direction: column; /* Stack elements vertically */
+      padding: 60px;
+    }
+
+    .title_text {
+      margin-top: 20px; /* Adjust margin */
+    }
+
+    .title__network {
+      flex-direction: column; /* Stack network links vertically */
+      gap: 1rem; /* Adjust gap between links */
+    }
+    
+  }
+    
+}
+
+@keyframes anime {
+  0%{
+      background-position: -500%;
+  }
+  100%{
+      background-position: 500%;
+  }
+
+}
+
+section.title{
+  .img__title{
+    width: 85%;
+    align-self: center;
+  }
+}

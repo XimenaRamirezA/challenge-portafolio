@@ -1,0 +1,71 @@
+section.menu{
+    
+    padding: 7%;
+   
+    
+    .logo{
+        display:flex;
+        gap: 0.4rem;
+        
+        
+       .stars { 
+        height: 19px;
+
+     }
+       .menu__title{
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #464646;
+
+        }
+
+    }
+
+    .menu_header{
+        display: flex;
+        align-items: center;
+        margin-top: 1.5rem;
+    
+
+        .menu__list{
+            
+            display: flex;
+            gap: 2rem;
+            .bolded { 
+                
+                font-weight: bold;
+                
+             }
+
+            }
+
+            .menu__list__item{
+             font-family: 'Raleway';
+             font-style: normal;
+             font-weight: 500;
+             font-size: 16px;
+             line-height: 19px;
+             color: #464646;
+
+           }
+          
+        }
+
+}
+
+@media (max-width: 768px) {
+    padding: 20px; /* Adjust padding for smaller screens */
+
+    .menu_header {
+      display: none; /* Hide the main menu on smaller screens */
+    }
+
+    .menu__list__item.d-block {
+      display: block; /* Show the contact link */
+    }
+
+}

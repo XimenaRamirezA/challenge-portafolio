@@ -1,0 +1,316 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #464646;
+}
+
+body {
+   /* box-sizing: border-box;
+   */ background-color: var(--cor-de-fundo) ;
+     /*font-family: 'Montserrat';*/
+     
+
+    ol, ul,li {
+      list-style:none;
+    }
+    a{
+      text-decoration: none;
+      color: var(--cor-de-link);
+      text-decoration-line: none;
+    }
+}
+
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+/*Sección Menu*/
+section.menu {
+  display: grid;
+  justify-content: space-between;
+  padding: 32px;
+    .menu__header{
+      display: flex;
+      padding: 2rem;
+      gap: 0.4rem;
+     
+      .stars{ 
+        height: 19px;
+      }
+      .menu__title{
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #464646;
+      }
+     }
+  /* Topo */
+     .menu__list{
+     display: flex;
+     padding: 2rem;
+     gap: 2rem;
+     }
+     .menu__list__item{
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #464646;
+    }
+   .bolded { font-weight: bold; }
+
+    ol, ul,li { list-style:none; }
+
+    a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+    text-decoration-line: none;
+   }
+
+  }
+
+
+/*Sección Title*/
+
+section.title{
+  /*font-family: "Urbanist", sans-serif;*/
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  min-height: 450px;
+  text-align: center;
+
+  .title__profile {
+    margin: 0 auto;
+    width: 368px; 
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .title__subsection{
+    width: 751px;
+    height: 52px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    /* Preto/100% */
+    color: #464646;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+  }
+  ol, ul,li {
+    list-style:none;
+    
+  }
+  a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+    text-decoration-line: none;
+  }
+  }
+
+ section.hero-align-items-stretch{
+  align-items: stretch;
+  .hero-principal-d-flex-flex-column-justify-content-center-align-items-center{
+    flex: column;
+     justify-content:center ;
+     align-items: center;
+  }
+  }
+
+
+
+/*Sección About*/
+
+section.about{
+ .about__container{
+  background-color: #EAF2FD;
+  background-size:auto;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal; 
+  
+  .about__signature{
+    height: 140px; 
+    
+  }
+  
+}
+} 
+
+section.skills{
+.skills__box {
+  background-color: white;
+  width: 176px;
+  height: 174px;
+  display: flex;
+  align-items: flex-end;
+  }
+  .skills__box ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 16px;
+  gap: 8px;
+  margin: 0px;
+  }
+}
+/*Sección Hobbies*/
+
+section.hobbies{
+  background-color:white;
+}
+
+/* Experiencia Académica*/
+
+section.academic{
+  background-color: #EAF2FD;
+  .
+  
+
+}
+
+/* experiencia*/
+
+section.experience{
+  background-color: #F5F5F5;
+
+}
+
+/*Contacto*/
+
+section.formcontato{
+ 
+  background-color: #EAF2FD;
+  
+
+}
+
+/*footeer*/
+
+section.footer{
+  background-color: #F5F5F5;
+
+   
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 1011px){
+
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+.skills__box {
+  background-color: white;
+  width: 176px;
+  height: 174px;
+  display: flex;
+  align-items: flex-end;
+  }
+  .skills__box ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 16px;
+  gap: 8px;
+  margin: 0px;
+  }
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+.body
+ @media screen and (max-width: 400px) {
+        .overlay p {
+          font-size: 18px;
+        }
+      
+        .overlay i {
+          font-size: 40px;
+        }
+      }
+      
+      @media screen and (max-width: 767px) {
+        .navbar-brand {
+          display: none;
+        }
+        
+      }
+
+/*Menu*/
+.menu{
+  /*font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/*Titulo*/
+h1 {
+ /* font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+
+/*Sección sobre mi*/
+.about{
+  /*font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/*Skills*/
+
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+

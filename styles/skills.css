@@ -1,0 +1,104 @@
+section.skills{
+    padding: 5% 13% 2% 13%;
+
+    .skills__title{
+        font-family: 'Raleway';
+        font-style: bold;
+        font-weight: 700;
+        font-size: 32px;
+        color: #464646;
+        text-align: center;
+    }
+
+    .skills .carousel {
+        max-width: 100px;
+      }
+      
+      .carousel-item {
+        height: 300px;
+      }
+      
+      .carousel-item .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .skills-imagen {
+        height: 150px;
+        width: 150px;
+        margin: 10px 10px 0px 10px;
+      }
+      
+      .skills-texto {
+        max-width: 70%;
+        font-family: 'Raleway';
+        font-weight: 500;
+        font-size: 22px;
+        text-align: center;
+        font-style: italic;
+      }
+
+
+}
+
+
+
+section.hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+    .hobbies__title{
+      font-family: 'Raleway';
+      font-style: bold;
+      font-weight: 700;
+      font-size: 32px;
+      color: #464646;
+      text-align: center;
+    }
+   
+
+    
+
+    .hobbies__line{
+     
+     align-content: center;
+
+      
+      .hobbies__box {
+          border: 0.5px solid #bbbbc74d;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 10px;
+        
+        
+    }
+    
+        
+        .hobbies__img{
+          min-height: 70px;
+          max-height: 90px;
+          
+          
+          
+          }
+    
+        .hobbies__name{
+          font-family: 'Raleway';
+          font-weight: 600;
+          font-size: 16px;
+         
+          
+          
+        }
+
+     }
+
+    } 

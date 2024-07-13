@@ -1,0 +1,27 @@
+section.about{
+    .about__container{
+     background-color: #EAF2FD;
+     padding: 5% 16% 3% 7%;
+     
+
+     .about__title{
+     font-family: 'Raleway';
+     font-style: bold;
+     font-weight: 700;
+     font-size: 32px;
+     color: #464646;
+    }
+     .about__paragraph{
+        font-family: 'Raleway';
+        font-style: bold;
+        font-weight: 500;
+        font-size: 18px;
+        color: #464646;
+     }
+     .about__signature{
+       height: 160px; 
+       
+     }
+     
+   }
+}

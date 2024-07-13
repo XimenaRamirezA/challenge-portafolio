@@ -1,0 +1,119 @@
+section.formcontato{
+  background-color: #EAF2FD;
+  display: flex;
+  flex-direction: row;
+  padding: 3.5% 2% 4.5% 2%;
+  
+
+  .formcontato__title{
+    font-family: 'Raleway';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+
+  }
+  .formcontato__form{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+
+
+  .formcontato__subtext{
+    font-family: 'Raleway';
+    font-style:medium;
+    font-weight: 500;
+    font-size: 16px;
+    color: #575757;
+
+  }
+  .formcontato__input{
+    font-family: 'Raleway';
+    font-style:medium;
+    font-weight: 500;
+    font-size: 16px;
+    color: #575757;
+  }
+
+  .formcontato__botao{
+    background-image: linear-gradient(to right, #042a76, #007cf9);
+    display: block;
+    color: $primary-color;
+    font-size: 0.5rem;
+    cursor: $cursor;
+    box-shadow: 0 1px 10px #5275D2;
+    transition: box-shadow .3s ease-in-out;
+    font-family: 'Raleway';
+    font-style:normal;
+    font-weight: 650;
+    font-size: 18px;
+    color: #F5F5F5;
+  }
+
+  .user-box {
+    position: relative;
+  }
+  .user-box input {
+    font-size: 16px;
+    color: #161ce1;
+    margin-bottom: 18px;
+    border: none;
+    border-bottom: 0.5px solid #161ce1;
+    outline: none;
+    background: transparent;
+  }
+ 
+
+}
+
+section.footer{
+  padding: 8% 13% 2% 13%;
+  background-color: #00237c;
+   
+      
+      
+      .footer-texto {
+        font-size: 1.5rem;
+        padding: 20px;
+        margin-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+      }
+      
+      .iconos-redes-sociales a {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2px;
+        margin: 10px;
+        border: 2px solid white;
+        border-radius: 50%;
+        transition: all 0.2s ease-in;
+      }
+      
+      .iconos-redes-sociales i {
+        color: white;
+        font-size: 1.5rem;
+        transition: all 0.2s ease-in;
+      }
+      
+      .iconos-redes-sociales a:hover {
+        background-color: white;
+        border: 2px solid rgb(134, 150, 254);
+      }
+      
+      .iconos-redes-sociales a:hover i {
+        color: black;
+      }
+      
+      .derechos-de-autor {
+        font-size: 15px;
+        color: #aeaeae;
+        padding: 20px;
+      }
+      
+}
